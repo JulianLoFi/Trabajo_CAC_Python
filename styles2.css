@@ -6,6 +6,8 @@ body {
     }
 
 .custom-navbar {
+    position: fixed;
+    width: 100%;
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr; /* Modificado: Cambiado el orden de las columnas */
     align-items: center;
@@ -170,6 +172,7 @@ posicionamiento, puse el :hover en .custom-navbar a
   .titulo-bloque {
     font-size: 1.5rem;
     color: whitesmoke;
+    text-align: center;
 }
 
 .texto-bloque {
@@ -184,6 +187,7 @@ posicionamiento, puse el :hover en .custom-navbar a
     padding: 5px 10px;
     border-radius: 3px;
     display: inline-block;
+    
   }
   
   .boton-bloque:hover {
@@ -237,6 +241,29 @@ label{
     margin-bottom: 2em;
 
 }
+#botonera {
+    text-align: center;
+  }
+  
+  .custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #boton-borrar {
+    background-color: #dc3545; /* Color de fondo rojo */
+    color: #fff; /* Color de texto blanco */
+  }
+  
+  #boton-calcular {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+  }
+  
 /* TERMINA FORM */
   /* FOOTER */
   .contendor-footer{
